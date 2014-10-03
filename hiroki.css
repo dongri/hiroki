@@ -3,10 +3,11 @@
   padding: 0;
   border: 0;
   margin-left: 10px;
+  font-family: 'Courier New',Courier,monospace;
 }
 
 body {
-  background: #000;
+  background: #666;
   font: 13px sans-serif;
   margin: 10px;
   color: white;
@@ -19,12 +20,13 @@ body {
 
 #time{
   border: 1px solid #eee;
-  width: 320px;
+  width: 380px;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #total{
-  color: red;
+  color: white;
+  font-size: 30px;
 }
