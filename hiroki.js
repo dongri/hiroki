@@ -73,6 +73,11 @@ account(5000, (new Date(2014, 10-1, 31)), function(days, total){
 	document.getElementById('money13').innerHTML = total;
 });
 
+account(5000, (new Date(2014, 11-8, 31)), function(days, total){
+  document.getElementById('days14').innerHTML = days;
+  document.getElementById('money14').innerHTML = total;
+});
+
 document.getElementById('total').innerHTML = sum;
 
 document.getElementById('start-time').innerHTML = new Date(2013, 2-1, 14).toLocaleString()
