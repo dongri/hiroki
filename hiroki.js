@@ -73,7 +73,7 @@ account(5000, (new Date(2014, 10-1, 31)), function(days, total){
 	document.getElementById('money13').innerHTML = total;
 });
 
-account(5000, (new Date(2014, 11-8, 31)), function(days, total){
+account(5000, (new Date(2014, 11-1, 8)), function(days, total){
   document.getElementById('days14').innerHTML = days;
   document.getElementById('money14').innerHTML = total;
 });
