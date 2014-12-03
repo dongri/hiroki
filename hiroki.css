@@ -18,15 +18,24 @@ body {
   margin-left: 0px;
 }
 
-#time{
-  border: 1px solid #eee;
-  width: 380px;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 #total{
   color: white;
   font-size: 30px;
+}
+
+body{
+  text-align: center;
+}
+#grid-content {
+  text-align: left;
+  overflow: hidden;
+  height: 0;
+}
+#grid-content div {
+  width: 200px;
+  border: 1px solid #DDDDDD;
+  background-color: #EFEFEF;
+  color: #888;
+  margin: 5px;
+  padding: 10px;
 }

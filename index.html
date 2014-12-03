@@ -3,95 +3,101 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Hiroki! 金返せ！</title>
   <link rel="stylesheet" href="hiroki.css"/>
+  <script src="./javascripts/jquery-2.1.1.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./javascripts/jquery.easing-1.3.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./javascripts/jquery.vgrid.min.js" type="text/javascript" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body>
 <h2>Hiroki様！</h2>
 <br/>
 <img src="hiroki.png"/>
-<br/>
-<h3>案件P</h3>
-<p>元金：30000円</p>
-<p><span id='days1'></span>日経過</p>
-<p>元金+利子=<span id='money1'></span>円</p>
-<br/>
-
-<h3>案件I</h3>
-<p>元金：5000円</p>
-<p><span id='days2'></span>日経過</p>
-<p>元金+利子=<span id='money2'></span>円</p>
-<br/>
-
-<h3>案件E</h3>
-<p>元金：40000円</p>
-<p><span id='days3'></span>日経過</p>
-<p>元金+利子=<span id='money3'></span>円</p>
-<br/>
-
-<h3>案件O</h3>
-<p>元金：10000円</p>
-<p><span id='days4'></span>日経過</p>
-<p>元金+利子=<span id='money4'></span>円</p>
-<br/>
-
-<h3>Tさんに</h3>
-<p>元金：500円</p>
-<p><span id='days5'></span>日経過</p>
-<p>元金+利子=<span id='money5'></span>円</p>
-<br/>
-
-<h3>案件A</h3>
-<p>元金：10000円</p>
-<p><span id='days6'></span>日経過</p>
-<p>元金+利子=<span id='money6'></span>円</p>
-<br/>
-
-<h3>案件S</h3>
-<p>元金：10000円</p>
-<p><span id='days7'></span>日経過</p>
-<p>元金+利子=<span id='money7'></span>円</p>
-<br/>
-
-<h3>案件C</h3>
-<p>元金：10000円</p>
-<p><span id='days8'></span>日経過</p>
-<p>元金+利子=<span id='money8'></span>円</p>
-<br/>
-
-<h3>案件N</h3>
-<p>元金：20000円</p>
-<p><span id='days9'></span>日経過</p>
-<p>元金+利子=<span id='money9'></span>円</p>
-<br/>
-
-<h3>案件C</h3>
-<p>元金：70000円</p>
-<p><span id='days10'></span>日経過</p>
-<p>元金+利子=<span id='money10'></span>円</p>
-<br/>
-
-<h3>案件A</h3>
-<p>元金：10000円</p>
-<p><span id='days11'></span>日経過</p>
-<p>元金+利子=<span id='money11'></span>円</p>
-<br/>
-
-<h3>案件N</h3>
-<p>元金：30000円</p>
-<p><span id='days12'></span>日経過</p>
-<p>元金+利子=<span id='money12'></span>円</p>
-<br/>
-
-<h3>案件 Inbox</h3>
-<p>元金：5000円</p>
-<p><span id='days13'></span>日経過</p>
-<p>元金+利子=<span id='money13'></span>円</p>
-<br/>
-
-<h3>案件 EC2</h3>
-<p>元金：5000円</p>
-<p><span id='days14'></span>日経過</p>
-<p>元金+利子=<span id='money14'></span>円</p>
-<br/>
+<br/><br/><br/>
+<div id="grid-content">
+  <div>
+    <h3>案件P</h3>
+    <p>元金：30000円</p>
+    <p><span id='days1'></span>日経過</p>
+    <p>元金+利子=<span id='money1'></span>円</p>
+  </div>
+  <div>    
+    <h3>案件I</h3>
+    <p>元金：5000円</p>
+    <p><span id='days2'></span>日経過</p>
+    <p>元金+利子=<span id='money2'></span>円</p>
+  </div>
+  <div>
+    <h3>案件E</h3>
+    <p>元金：40000円</p>
+    <p><span id='days3'></span>日経過</p>
+    <p>元金+利子=<span id='money3'></span>円</p>
+  </div>
+  <div>
+    <h3>案件O</h3>
+    <p>元金：10000円</p>
+    <p><span id='days4'></span>日経過</p>
+    <p>元金+利子=<span id='money4'></span>円</p>
+  </div>
+  <div>
+    <h3>Tさんに</h3>
+    <p>元金：500円</p>
+    <p><span id='days5'></span>日経過</p>
+    <p>元金+利子=<span id='money5'></span>円</p>
+  </div>
+  <div>
+    <h3>案件A</h3>
+    <p>元金：10000円</p>
+    <p><span id='days6'></span>日経過</p>
+    <p>元金+利子=<span id='money6'></span>円</p>
+  </div>
+  <div>
+    <h3>案件S</h3>
+    <p>元金：10000円</p>
+    <p><span id='days7'></span>日経過</p>
+    <p>元金+利子=<span id='money7'></span>円</p>
+  </div>
+  <div>
+    <h3>案件C</h3>
+    <p>元金：10000円</p>
+    <p><span id='days8'></span>日経過</p>
+    <p>元金+利子=<span id='money8'></span>円</p>
+  </div>
+  <div>
+    <h3>案件N</h3>
+    <p>元金：20000円</p>
+    <p><span id='days9'></span>日経過</p>
+    <p>元金+利子=<span id='money9'></span>円</p>
+  </div>
+  <div>
+    <h3>案件C</h3>
+    <p>元金：70000円</p>
+    <p><span id='days10'></span>日経過</p>
+    <p>元金+利子=<span id='money10'></span>円</p>
+  </div>
+  <div>
+    <h3>案件A</h3>
+    <p>元金：10000円</p>
+    <p><span id='days11'></span>日経過</p>
+    <p>元金+利子=<span id='money11'></span>円</p>
+  </div>
+  <div>
+    <h3>案件N</h3>
+    <p>元金：30000円</p>
+    <p><span id='days12'></span>日経過</p>
+    <p>元金+利子=<span id='money12'></span>円</p>
+  </div>
+  <div>
+    <h3>案件 Inbox</h3>
+    <p>元金：5000円</p>
+    <p><span id='days13'></span>日経過</p>
+    <p>元金+利子=<span id='money13'></span>円</p>
+  </div>
+  <div>
+    <h3>案件 EC2</h3>
+    <p>元金：5000円</p>
+    <p><span id='days14'></span>日経過</p>
+    <p>元金+利子=<span id='money14'></span>円</p>
+  </div>
+</div>
 
 <h3>合計</h3>
 <p><span id='total'></span> 円</p>

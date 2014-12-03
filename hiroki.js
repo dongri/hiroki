@@ -1,11 +1,11 @@
 var sum = 0;
 function account(principal, startDay, cb){
-    var interest = 0.01;
+  var interest = 0.01;
 	var toDay    = new Date();
 	var days     = parseInt((toDay - startDay)/(60*60*24*1000), 10);
-    var total    = principal + (principal * interest) * days;
-    sum += total;
-    cb(days, total);  
+  var total    = principal + (principal * interest) * days;
+  sum += total;
+  cb(days, total);  
 }
 
 account(30000, (new Date(2013, 2-1, 14)), function(days, total){
@@ -90,4 +90,17 @@ function time(){
 }
 
 time();
+
+$(function(){
+  $("#grid-content").vgrid({
+    easing: "easeOutQuint",
+    time: 400,
+    delay: 20,
+    fadeIn: {
+      time: 500,
+      delay: 50,
+      wait: 500
+    }
+  });
+});
 
