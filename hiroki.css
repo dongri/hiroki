@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  margin-left: 10px;
   font-family: 'Courier New',Courier,monospace;
 }
 
@@ -27,9 +26,11 @@ body{
   text-align: center;
 }
 #grid-content {
+  margin: 0 auto;
   text-align: left;
   overflow: hidden;
   height: 0;
+  max-width: 470px !important;
 }
 #grid-content div {
   width: 200px;
