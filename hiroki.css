@@ -17,6 +17,15 @@ body {
   margin-left: 0px;
 }
 
+hr {
+  border: solid #777;
+  border-width: 1px 0 0 0;
+  height: 1px;
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+}
+
 #total{
   color: white;
   font-size: 30px;
@@ -25,6 +34,7 @@ body {
 body{
   text-align: center;
 }
+
 #grid-content {
   margin: 0 auto;
   text-align: left;
@@ -40,4 +50,26 @@ body{
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
+}
+
+#grid-content-hiroyuki {
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  height: 0;
+  max-width: 950px !important;
+}
+#grid-content-hiroyuki div {
+  width: 200px;
+  border: 1px solid #DDDDDD;
+  background-color: #EFEFEF;
+  color: #888;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#total-hiroyuki{
+  color: white;
+  font-size: 30px;
 }
