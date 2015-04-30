@@ -18,6 +18,11 @@ account(2000, (new Date(2015, 4-1, 23)), function(days, total){
 	document.getElementById('money2-hiroyuki').innerHTML = total;
 });
 
+account(2000, (new Date(2015, 4-1, 30)), function(days, total){
+	document.getElementById('days3-hiroyuki').innerHTML = days;
+	document.getElementById('money3-hiroyuki').innerHTML = total;
+});
+
 document.getElementById('total-hiroyuki').innerHTML = sum;
 
 document.getElementById('start-time-hiroyuki').innerHTML = new Date(2015, 4-1, 14).toLocaleString()
