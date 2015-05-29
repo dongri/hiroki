@@ -23,7 +23,7 @@ account(2000, (new Date(2015, 4-1, 30)), function(days, total){
 	document.getElementById('money3-hiroyuki').innerHTML = total;
 });
 
-document.getElementById('total-hiroyuki').innerHTML = sum;
+document.getElementById('total-hiroyuki').innerHTML = sum - 4000;
 
 document.getElementById('start-time-hiroyuki').innerHTML = new Date(2015, 4-1, 14).toLocaleString()
 
