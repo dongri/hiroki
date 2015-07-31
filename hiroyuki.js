@@ -28,6 +28,11 @@ account(5000, (new Date(2015, 6-1, 09)), function(days, total){
 	document.getElementById('money4-hiroyuki').innerHTML = total;
 });
 
+account(60000, (new Date(2015, 8-1, 01)), function(days, total){
+	document.getElementById('days5-hiroyuki').innerHTML = days;
+	document.getElementById('money5-hiroyuki').innerHTML = total;
+});
+
 document.getElementById('total-hiroyuki').innerHTML = sum - 6000;
 
 document.getElementById('start-time-hiroyuki').innerHTML = new Date(2015, 4-1, 14).toLocaleString()
