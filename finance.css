@@ -96,3 +96,26 @@ body{
   color: white;
   font-size: 30px;
 }
+
+/* Yuya */
+#grid-content-yuya {
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  /*height: 0;*/
+  max-width: 950px !important;
+}
+#grid-content-yuya div {
+  width: 200px;
+  border: 1px solid #DDDDDD;
+  background-color: #EFEFEF;
+  color: #888;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#total-yuya{
+  color: white;
+  font-size: 30px;
+}
