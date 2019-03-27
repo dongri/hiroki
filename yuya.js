@@ -9,8 +9,13 @@ function account(principal, startDay, cb){
 }
 
 account(150, (new Date(2018, 8-1, 10)), function(days, total){
-	document.getElementById('days1-yuya').innerHTML = days;
+  document.getElementById('days1-yuya').innerHTML = days;
   document.getElementById('money1-yuya').innerHTML = total;
+});
+
+account(2400, (new Date(2019, 3-1, 27)), function(days, total){
+  document.getElementById('days2-yuya').innerHTML = days;
+  document.getElementById('money2-yuya').innerHTML = total;
 });
 
 document.getElementById('total-yuya').innerHTML = sum;
